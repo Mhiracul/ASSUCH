@@ -54,15 +54,21 @@ const About = () => {
         <div className="max-w-lg px-4 sm:px-6 md:px-8 py-20 container mx-auto">
           <h1 className="lg:text-6xl text-3xl  font-extrabold">ABOUT US</h1>
           <div className="mt-6">
-            <h1>We Offer Top-notch hospitality services which include:</h1>
+            <h1>Explore Our Premier Real Estate Services, Including:</h1>
             <ol className="text-sm mt-3 space-y-2">
-              <li>1. Luxurious Accommodation</li>
-              <li>2. Indoor and Outdoor Restaurant services</li>
-              <li>3. Exquisite Lounge & Bar</li>
+              <li>1. Luxury Residential Properties</li>
+              <li>2. Commercial Real Estate Solutions</li>
+              <li>3. Exclusive Property Listings</li>
               <li>
-                4. Outdoor Catering namely:
+                4. Property Management Services, including:
                 <ol>
-                  <li className="ml-4 text-sm">i.Online Booking</li>
+                  <li className="ml-4 text-sm">
+                    i. Rental Property Management
+                  </li>
+                  <li className="ml-4 text-sm">
+                    ii. Property Sales and Marketing
+                  </li>
+                  <li className="ml-4 text-sm">iii. Property Maintenance</li>
                 </ol>
               </li>
             </ol>
