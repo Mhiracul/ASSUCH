@@ -90,12 +90,12 @@ const About = () => {
       </div>
 
       <div className="bg-[#f1f0f0] md:w-1/2 w-full h-full relative z-1">
-        <div className="px-20  h-full ">
+        <div className="px-20   h-full ">
           {" "}
           <img
             src="https://hotellerv5.b-cdn.net/modern/wp-content/uploads/sites/5/2021/08/two-laughing-guests-checking-in-together-at-a-hote-MUXSSNK.jpg"
             alt=""
-            className="border-8 border-[#164de0] relative top-[-100px] lg:left-[70px] md:left-[60px] left-[50px]  w-[400px]"
+            className="border-8 border-[#164de0] relative top-[-100px] lg:left-[70px] md:left-[60px] left-[50px] w-[400px]"
           />
           <div className="flex md:flex-row flex-col justify-between items-center mb-3">
             <div className="flex flex-col justify-center items-center mt-6">
