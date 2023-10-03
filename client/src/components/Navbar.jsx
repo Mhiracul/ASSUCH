@@ -57,26 +57,26 @@ const Navbar = () => {
         </div>
 
         {isMobileMenuOpen && (
-          <div className="md:hidden w-full absolute top-16 left-0 bg-white text-black shadow-md">
-            <ul className="flex flex-col space-y-4 p-4">
-              <li>
+          <div className=" md:hidden w-full absolute top-16 left-0 bg-white text-black shadow-md">
+            <ul className=" container mx-auto px-4 sm:px-6 md:px-8 py-3 flex flex-col space-y-4 ">
+              <li className="border-b">
                 <Link to="/" className="hover:text-[#164de0]">
                   Home
                 </Link>
               </li>
-              <li>
+              <li className="border-b">
                 <Link to="/contacts" className="hover:text-[#164de0]">
                   Contacts
                 </Link>
               </li>
-              <li>
+              <li className="border-b">
                 <Link to="/about" className="hover:text-[#164de0]">
                   About
                 </Link>
               </li>
             </ul>
-            <div className="p-4">
-              <button className="text-[#164de0] text-sm font-normal border-transparent px-4 py-2 rounded-none hover:border hover:border-white ">
+            <div className="px-4 sm:px-6 md:px-8 py-1 container mx-auto border-b">
+              <button className="text-white bg-[#164de0] text-sm font-normal border-transparent px-4 py-2 rounded-none hover:border hover:border-white ">
                 JOIN NOW
               </button>
             </div>
